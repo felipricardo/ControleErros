@@ -51,6 +51,7 @@
             this.label1.Size = new System.Drawing.Size(1063, 372);
             this.label1.TabIndex = 1;
             this.label1.Text = "Resultado";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -60,6 +61,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
