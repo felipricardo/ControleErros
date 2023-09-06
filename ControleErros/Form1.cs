@@ -32,7 +32,7 @@ namespace ControleErros
             }
             catch (Exception)
             {
-                throw;
+                label1.Text = "Erro!";
             }
         }
     }
