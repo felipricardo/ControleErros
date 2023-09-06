@@ -1,4 +1,4 @@
-README - Tratamento de Erros com `Try`, `Catch` e `Finally`
+# Tratamento de Erros com `Try`, `Catch` e `Finally`
 
 Objetivo:
 Este código de exemplo demonstra como usar as construções `try`, `catch` e `finally` em C# para lidar com erros em um programa. O objetivo é ilustrar como proteger o programa contra exceções que podem ocorrer durante a execução, mantendo o controle do fluxo do programa e garantindo ações de limpeza, se necessário.
