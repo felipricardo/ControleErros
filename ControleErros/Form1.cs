@@ -24,15 +24,15 @@ namespace ControleErros
             try
             {
                 string res = "";
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 10; i++)
                 {
                     res += num[i] + " ";
                 }
                 label1.Text = res;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                label1.Text = "Erro!";
+                label1.Text = $"Erro!\n {ex.Message}";
             }
         }
     }
