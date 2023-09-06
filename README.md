@@ -21,6 +21,7 @@ Observações:
 - É importante capturar exceções específicas sempre que possível para tratar diferentes tipos de erros de maneira adequada.
 - O `finally` é usado para ações que devem ser executadas, independentemente de ocorrerem exceções ou não, como fechar arquivos ou conexões de banco de dados.
 
+# pseudocódigo:
 ```
 INÍCIO DO PROGRAMA
     Inicializar a interface gráfica do Windows Forms (Form1)
