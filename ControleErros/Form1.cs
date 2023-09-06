@@ -21,10 +21,12 @@ namespace ControleErros
         {
             int[] num = { 10, 20, 30, 40, 50 };
 
+            string res = "";
             for (int i = 0; i < 5; i++)
             {
-
+                res += num[i] + " ";
             }
+            label1.Text = res;
         }
     }
 }
